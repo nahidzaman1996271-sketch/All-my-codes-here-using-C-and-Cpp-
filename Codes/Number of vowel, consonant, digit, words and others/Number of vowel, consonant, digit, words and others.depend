@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1765135865 source:f:\codes\number of vowel, consonant, digit, words and others\main.c
+	<stdio.h>
+	<stdlib.h>
+

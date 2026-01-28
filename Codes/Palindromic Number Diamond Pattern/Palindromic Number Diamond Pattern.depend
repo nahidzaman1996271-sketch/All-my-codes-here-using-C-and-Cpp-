@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1763840839 source:f:\codes\palindromic number diamond pattern\main.c
+	<stdio.h>
+	<stdlib.h>
+

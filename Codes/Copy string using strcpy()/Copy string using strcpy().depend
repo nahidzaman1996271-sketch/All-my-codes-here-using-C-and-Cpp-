@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1764954811 source:f:\codes\copy string using strcpy()\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

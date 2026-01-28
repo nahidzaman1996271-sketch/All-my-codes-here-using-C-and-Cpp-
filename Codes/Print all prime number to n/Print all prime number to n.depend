@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1766085282 source:f:\codes\print all prime number to n\main.c
+	<stdio.h>
+	<stdlib.h>
+

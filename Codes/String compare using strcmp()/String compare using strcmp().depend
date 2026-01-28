@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1765118920 source:f:\codes\string compare using strcmp()\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

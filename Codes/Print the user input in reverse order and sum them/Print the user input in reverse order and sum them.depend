@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1763650099 source:f:\codes\print the user input in reverse order and sum them\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1766686778 source:f:\codes\square matrix with row & column sums\main.c
+	<stdio.h>
+	<stdlib.h>
+

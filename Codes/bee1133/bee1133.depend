@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1764129843 source:f:\codes\bee1133\main.c
+	<stdio.h>
+	<stdlib.h>
+

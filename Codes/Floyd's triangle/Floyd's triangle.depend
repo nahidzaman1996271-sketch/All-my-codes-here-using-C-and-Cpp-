@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1763834386 source:f:\codes\floyd's triangle\main.c
+	<stdio.h>
+	<stdlib.h>
+

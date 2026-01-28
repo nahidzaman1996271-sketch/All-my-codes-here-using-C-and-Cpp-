@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1767115793 source:f:\codes\getting input in c++\main.cpp
+	<iostream>
+	<conio.h>
+

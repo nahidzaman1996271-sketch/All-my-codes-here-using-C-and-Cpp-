@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1763822315 source:f:\codes\for pyramid\main.c
+	<stdio.h>
+	<stdlib.h>
+
