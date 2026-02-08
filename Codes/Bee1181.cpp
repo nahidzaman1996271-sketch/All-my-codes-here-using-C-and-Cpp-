@@ -14,6 +14,10 @@ int main()
             cin >> M[i][j];
         }
     }
+    /* Quick note :
+    for row: sum+= M[l][i];
+    for column: sum+= M[i][l];
+    */
      for(i=0;i<12;i++){
             sum+=M[L][i];
      }
