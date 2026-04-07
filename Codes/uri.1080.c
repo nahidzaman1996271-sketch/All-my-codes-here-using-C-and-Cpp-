@@ -14,4 +14,5 @@ for(int i = 0; i<n;i++){
 }
 printf("%d\n",max_value);
 printf("%d\n",position);
+return 0;
 }
