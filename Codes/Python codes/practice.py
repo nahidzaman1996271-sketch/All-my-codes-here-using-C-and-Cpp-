@@ -1,3 +1,4 @@
-a = 4 
-b = 9
-print (a+b)
+a  = "0.23"
+b = float(a)
+c = type(b)
+print(c)
