@@ -2,17 +2,20 @@
 #include<list>
 #include<vector>
 #include<deque>
+#include<queue>
+#include<map>
 using namespace std;
 int main()
 {
 
-  vector<pair<int, int>> vec = {{1,2},{2,3},{3,4}};
-  vec.push_back({4,5});
-  vec.emplace_back(5,10);
-  for(auto p : vec){
+  map<string,int>m;
+  m["tv"] = 100;
+  m["laptop"] = 100;
+  m["headphones"] = 50;
+  m["tablet"] = 120;
+  m["watch"] = 50;
+  for(auto p: m){
     cout << p.first << " " << p.second << endl;
-
   }
   return 0;
 }
-
