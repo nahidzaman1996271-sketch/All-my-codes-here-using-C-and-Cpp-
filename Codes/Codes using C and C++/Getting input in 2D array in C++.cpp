@@ -24,3 +24,4 @@ for(int i=0;i<3;i++){
 }
 return 0;
 }
+// and here all the codes make sure to practice more and more
