@@ -3,10 +3,10 @@ public:
     int firstBadVersion(int n) {
         long int low = 1;
         long int high = n;
-        long int = mid;
+        long int mid;
         long int result = n;
 
-        while (long<=high)
+        while (low<=high)
         {
             mid = (low+high)/2;
             if(isBadVersion(mid)){
