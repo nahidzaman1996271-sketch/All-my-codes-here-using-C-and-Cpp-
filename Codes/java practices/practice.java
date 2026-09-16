@@ -1,4 +1,3 @@
-```java
 import java.util.Scanner;
 
 public class practice {
@@ -20,4 +19,4 @@ public class practice {
         sc.close();
     }
 }
-```
+
