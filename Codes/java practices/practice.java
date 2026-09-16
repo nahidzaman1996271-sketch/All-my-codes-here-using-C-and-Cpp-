@@ -1,19 +1,16 @@
 import java.util.Scanner;
 
-public class practice{
+public class practice {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-
-
-        System.out.print("Enter the first input: ");
+        System.out.print("Give me some input: ");
         int n = sc.nextInt();
-        System.out.print("Enter the second input: ");
-        int m = sc.nextInt();
-        if(n < 0){
-            System.out.println("take the input greater than zero");
+        while(n < 0 ){
+            System.out.print("choose the input number greater than 0");
         }
-        else{
-            System.out.println("The sum is: "+ (m+n));
+        for(int i=1; i<=n; i++){
+            System.out.println(i);
+        
         }
     }
 }
