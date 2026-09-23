@@ -19,7 +19,7 @@ abstract class Car {
     abstract void brake();
 }
 
-class FuelCar extends Car {
+class FuelCar implements  Car {
 
     @Override
     void accelerate(){
