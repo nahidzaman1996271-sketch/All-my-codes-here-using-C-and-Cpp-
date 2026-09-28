@@ -1,0 +1,32 @@
+class Solution {
+public:
+
+    void inorder(TreeNode* root,vector<int>&store){
+
+        if(root == NULL) return;
+
+        inorder(root->left,store);
+        store.push_back(root->val);
+        inorder(root->right,store);
+    }
+
+    bool findTarget(TreeNode* root, int k) {
+        
+        vector<int>store;
+        inorder(root,store);
+
+        int start = 0;
+        int end = store.size()-1;
+
+        while(start<end){
+            int temp = store[start]+store[end];
+
+            if(temp==k) return true;
+
+            else if(temp<k) start++;
+            else end--;
+        }
+
+        return false;
+    }
+};
