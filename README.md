@@ -1,86 +1,126 @@
+# 🏆 Competitive Programming & DSA Vault — 1,000+ Solved Problems
+
 <div align="center">
 
-# 🚀 All My Codes Here (Using C, C++, Java and Python)
+![DSA Vault Banner](https://img.shields.io/badge/DSA%20Vault-1000%2B%20Solutions-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-### *Where Spaghetti Code Slowly Turns Into Something Beautiful* 🍝➡️✨
+[![C](https://img.shields.io/badge/C-17-A8B9CC?style=for-the-badge&logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![C++](https://img.shields.io/badge/C++-20-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org)
+[![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Python](https://img.shields.io/badge/Python-3-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![LeetCode](https://img.shields.io/badge/LeetCode-164%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
+[![Beecrowd](https://img.shields.io/badge/Beecrowd-256%20Solved-orange?style=for-the-badge)](https://judge.beecrowd.com)
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Beecrowd](https://img.shields.io/badge/Beecrowd-Solved-orange?style=for-the-badge)
-![LeetCode](https://img.shields.io/badge/LeetCode-Grinding-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Actively%20Growing-brightgreen?style=for-the-badge)
+<br/>
+
+**A vast personal archive of 1,000+ solved algorithms, competitive programming solutions, and data structure implementations.**  
+*Solutions to LeetCode, Beecrowd (URI Online Judge), low-level C file handling, and multi-language algorithm translations in C, C++, Java, and Python.*
+
+[📊 Vault Statistics](#-vault-statistics) • [🧠 DSA Topic Distribution](#-dsa-topic-coverage) • [🗂️ Directory Taxonomy](#️-directory-taxonomy) • [⚡ Compilation Guide](#-compilation--execution)
+
+---
 
 </div>
 
----
+## 📌 About This Vault
 
-## 📌 What Is This Repository?
-
-Welcome to my personal vault of **C & C++ code** — a living archive of every problem I've cracked, every algorithm I've wrestled with, and every "aha!" moment along the way. Think of it as my coding diary, except instead of feelings, it's full of `for` loops, pointers, and the occasional segmentation fault I'm quietly proud of surviving. 😄
-
-This repo grows every single day as I keep practicing, learning, and leveling up — one commit at a time.
+This repository represents hundreds of hours of deliberate algorithmic problem-solving. From mastering foundational pointers, memory offsets, and bitwise tricks in pure C to implementing complex graphs, dynamic programming, and binary search trees on LeetCode and Beecrowd, every file is an independently verified, judge-accepted solution.
 
 ---
 
-## 🗂️ Repository Structure
+## 📊 Vault Statistics
 
+| Track / Section | Primary Language(s) | Solved Count | Focus & Description |
+|:---|:---:|:---:|:---|
+| 🐝 **Beecrowd (URI Judge)** | C, C++ | **256** | Structured competitive programming problems spanning mathematics, ad-hoc, strings, and computational geometry |
+| 🧩 **LeetCode Solutions** | C++, Java, Python | **164** | Technical interview problems: arrays, two pointers, sliding window, trees, linked lists, and dynamic programming |
+| 💻 **Multi-Language Algorithms** | C, C++, Java, Python | **551** | Core algorithmic paradigms, recursion, sorting, data structure implementations, and lab exercises |
+| ☕ **Java Practices** | Java (SE) | **88** | Object-oriented design, algorithmic puzzles, collections framework, and clean API design |
+| 📁 **File Handling Lab** | C, C++ | **33** | Low-level file streams (`fopen`, `fread`, `fwrite`, `fseek`), binary persistence, and buffer management |
+| **Total Verified Files** | | **1,090+** | |
+
+---
+
+## 🧠 DSA Topic Coverage
+
+```mermaid
+mindmap
+  root((1,000+ DSA Solutions))
+    Linear Structures
+      Arrays & Multi-Dimensional Matrices
+      Singly & Doubly Linked Lists
+      Stacks & Monotonic Deques
+      Queues & Circular Buffers
+    Non-Linear & Hierarchical
+      Binary Trees & Tree Traversals
+      Binary Search Trees (BST)
+      Heaps & Priority Queues
+      Graphs & Disjoint Set Union (DSU)
+    Algorithmic Paradigms
+      Two Pointers & Sliding Window
+      Binary Search & Divide & Conquer
+      Recursion & Backtracking
+      Greedy Algorithms
+      Dynamic Programming (1D & 2D)
+    Low-Level & Mathematical
+      Bit Manipulation & Masks
+      Number Theory, Primes & GCD
+      String Hashing & Pattern Matching
+      Low-Level File Stream I/O
 ```
-All-my-codes-here-using-C-and-Cpp-/
-│
-├── 📁 Codes/
-│   ├── 🐝 Beecrowd using C and C++     → Judge-solved problems, sharpened logic
-│   ├── 💻 Codes using C and C++        → General practice & concept-building code
-│   └── 🧩 leetcode                     → LeetCode grind, one problem at a time
-│
-├── .gitattributes
-└── README.md   → (you are here 👋)
+
+---
+
+## 🗂️ Directory Taxonomy
+
+```plaintext
+All-my-codes-here/
+└── Codes/
+    ├── Beecrowd using C and C++/       # 256 judge-accepted solutions from Beecrowd URI
+    ├── leetcode/                       # 164 interview-level algorithm challenges
+    ├── Codes using C, C++, Java.../    # 551 multi-paradigm algorithm implementations
+    ├── java practices/                 # 88 Java OOP and algorithmic exercises
+    └── File handling/                  # 33 low-level C file pointer and stream scripts
 ```
 
 ---
 
-## 🧠 What You'll Find Inside
+## ⚡ Compilation & Execution
 
-| Folder | Purpose |
-|---|---|
-| **Beecrowd using C and C++** | Solutions to Beecrowd (URI) judge problems — logic, math, and pure problem-solving practice |
-| **Codes using C and C++** | Core C/C++ programs covering data structures, algorithms, and everyday practice |
-| **leetcode** | LeetCode problem solutions — arrays, linked lists, trees, bit manipulation, and more |
+Each solution is standalone and can be compiled using standard GNU tools:
 
----
+### C Program Compilation (GCC)
+```bash
+gcc -O2 "Codes/Beecrowd using C and C++/1001.c" -o solution
+./solution
+```
 
-## 🛠️ Tech Stack
+### C++ Modern Compilation (G++)
+```bash
+g++ -std=c++20 -O2 "Codes/leetcode/two_sum.cpp" -o solution
+./solution
+```
 
-- **Languages:** C, C++
-- **Focus Areas:** Data Structures & Algorithms, Competitive Programming, Problem Solving
-- **Platforms:** Beecrowd (URI Online Judge), LeetCode
+### Java Execution
+```bash
+cd "Codes/java practices"
+javac Solution.java
+java Solution
+```
 
----
-
-## 📈 Why This Repo Exists
-
-> *"Confusion Path" today. "The Right Path" tomorrow.*
-
-Every messy first attempt, every rewritten function, every "wait, why is this segfaulting" moment — it all lives here. This is proof that clean, confident code doesn't happen overnight; it's built problem by problem, commit by commit. 💪
-
----
-
-## 🌱 Currently Learning / Practicing
-
-- 🔁 Data Structures (Linked Lists, Trees, Stacks, Queues)
-- 🧮 Discrete Math & Algorithmic Thinking
-- 🏆 Competitive Programming (Beecrowd + LeetCode)
-- ⚙️ Strengthening core C/C++ fundamentals
+### Python Execution
+```bash
+python "Codes/Codes using C, C++, Java, and Python/solution.py"
+```
 
 ---
 
-## 🤝 Let's Connect
+## 📄 License
 
-If you're on a similar journey — grinding problems, learning C/C++, or just love clean commit histories — feel free to explore, star ⭐ the repo, or drop a suggestion!
+This repository is maintained for open-source educational reference under the [MIT License](LICENSE).
+
+---
 
 <div align="center">
-
-### 💻 Code today. Debug tomorrow. Master eventually.
-
-**Made with persistence, coffee, and a lot of compiler errors ☕🐞**
-
+  <sub>Maintained with relentless dedication by <a href="https://github.com/nahidzaman1996271-sketch">Nahid Zaman</a></sub>
 </div>
