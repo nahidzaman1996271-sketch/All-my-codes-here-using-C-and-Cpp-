@@ -1,19 +1,19 @@
-# 🏆 Competitive Programming & DSA Vault — 1,000+ Solved Problems
+# 🏆 Competitive Programming & DSA Vault — 1,100+ Solved Problems
 
 <div align="center">
 
-![DSA Vault Banner](https://img.shields.io/badge/DSA%20Vault-1000%2B%20Solutions-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![DSA Vault Banner](https://img.shields.io/badge/DSA%20Vault-1100%2B%20Solutions-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
 [![C](https://img.shields.io/badge/C-17-A8B9CC?style=for-the-badge&logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![C++](https://img.shields.io/badge/C++-20-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org)
 [![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 [![Python](https://img.shields.io/badge/Python-3-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![LeetCode](https://img.shields.io/badge/LeetCode-164%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-173%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
 [![Beecrowd](https://img.shields.io/badge/Beecrowd-256%20Solved-orange?style=for-the-badge)](https://judge.beecrowd.com)
 
 <br/>
 
-**A vast personal archive of 1,000+ solved algorithms, competitive programming solutions, and data structure implementations.**  
+**A vast personal archive of 1,100+ solved algorithms, competitive programming solutions, and data structure implementations.**  
 *Solutions to LeetCode, Beecrowd (URI Online Judge), low-level C file handling, and multi-language algorithm translations in C, C++, Java, and Python.*
 
 [📊 Vault Statistics](#-vault-statistics) • [🧠 DSA Topic Distribution](#-dsa-topic-coverage) • [🗂️ Directory Taxonomy](#️-directory-taxonomy) • [⚡ Compilation Guide](#-compilation--execution)
@@ -33,11 +33,11 @@ This repository represents hundreds of hours of deliberate algorithmic problem-s
 | Track / Section | Primary Language(s) | Solved Count | Focus & Description |
 |:---|:---:|:---:|:---|
 | 🐝 **Beecrowd (URI Judge)** | C, C++ | **256** | Structured competitive programming problems spanning mathematics, ad-hoc, strings, and computational geometry |
-| 🧩 **LeetCode Solutions** | C++, Java, Python | **164** | Technical interview problems: arrays, two pointers, sliding window, trees, linked lists, and dynamic programming |
+| 🧩 **LeetCode Solutions** | C++, Java, Python | **173** | Technical interview problems: arrays, two pointers, sliding window, trees, linked lists, and dynamic programming |
 | 💻 **Multi-Language Algorithms** | C, C++, Java, Python | **551** | Core algorithmic paradigms, recursion, sorting, data structure implementations, and lab exercises |
-| ☕ **Java Practices** | Java (SE) | **88** | Object-oriented design, algorithmic puzzles, collections framework, and clean API design |
+| ☕ **Java Practices** | Java (SE) | **159** | Object-oriented design, algorithmic puzzles, collections framework, and clean API design |
 | 📁 **File Handling Lab** | C, C++ | **33** | Low-level file streams (`fopen`, `fread`, `fwrite`, `fseek`), binary persistence, and buffer management |
-| **Total Verified Files** | | **1,090+** | |
+| **Total Verified Files** | | **1,170+** | |
 
 ---
 
@@ -45,7 +45,7 @@ This repository represents hundreds of hours of deliberate algorithmic problem-s
 
 ```mermaid
 mindmap
-  root((1,000+ DSA Solutions))
+  root((1,100+ DSA Solutions))
     Linear Structures
       Arrays & Multi-Dimensional Matrices
       Singly & Doubly Linked Lists
@@ -77,9 +77,9 @@ mindmap
 All-my-codes-here/
 └── Codes/
     ├── Beecrowd using C and C++/       # 256 judge-accepted solutions from Beecrowd URI
-    ├── leetcode/                       # 164 interview-level algorithm challenges
+    ├── leetcode/                       # 173 interview-level algorithm challenges
     ├── Codes using C, C++, Java.../    # 551 multi-paradigm algorithm implementations
-    ├── java practices/                 # 88 Java OOP and algorithmic exercises
+    ├── java practices/                 # 159 Java OOP and algorithmic exercises
     └── File handling/                  # 33 low-level C file pointer and stream scripts
 ```
 
