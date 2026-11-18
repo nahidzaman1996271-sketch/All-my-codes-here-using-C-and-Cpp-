@@ -22,7 +22,8 @@ public class Testing {
                     );
                 }
                 System.out.println("In stock. Units available: " + count + ".");
-            } catch (OutOfStockException e) {
+            }
+            catch (OutOfStockException e) {
                 System.out.println(e.getMessage());
             }
         } catch (ArrayIndexOutOfBoundsException e) {
