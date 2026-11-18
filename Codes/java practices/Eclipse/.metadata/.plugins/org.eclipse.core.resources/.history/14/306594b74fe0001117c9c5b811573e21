@@ -1,0 +1,13 @@
+
+import pack1.Animal;
+import pack2.Dog;
+
+public class Main {
+    public static void main(String[] args) {
+        Animal a = new Animal("Generic animal");
+        a.sound();
+
+        Dog d = new Dog("Buddy");
+        d.sound();
+    }
+}

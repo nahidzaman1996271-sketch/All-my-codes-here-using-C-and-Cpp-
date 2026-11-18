@@ -1,0 +1,32 @@
+class School{
+	
+	private int id;
+	private String name;
+	
+	public void setData(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	
+}
+
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		School s1 = new School();
+		s1.setData(571,"Nahid Ibn Zaman");
+		System.out.println("Name is: "+s1.getName());
+		System.out.println("ID is: "+s1.getId());
+
+	}
+}
