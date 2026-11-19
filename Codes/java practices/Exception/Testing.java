@@ -6,7 +6,7 @@ class OutOfStockException extends Exception {
 
 public class Testing {
     public static void main(String[] args) {
-        int index = 2;
+        int index = 5;
         String[] products = {"Keyboard", "Monitor", "Mouse", "Headset"};
         int[] quantities = {15, 0, 8, 3};
 
@@ -26,9 +26,12 @@ public class Testing {
             catch (OutOfStockException e) {
                 System.out.println(e.getMessage());
             }
-        } catch (ArrayIndexOutOfBoundsException e) {
+        }
+        catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Error: Product slot does not exist.");
-        } finally {
+        }
+        
+        finally {
             System.out.println("=== Inventory check complete ===");
         }
     }
