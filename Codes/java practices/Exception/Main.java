@@ -12,7 +12,7 @@ public class Main {
             sum(-2);
         }
         catch (NahidException e) {
-            System.out.println("Hello newbie: " + e);
+            System.out.println("Hello newbie: " + e);n
         }
     }
 }
