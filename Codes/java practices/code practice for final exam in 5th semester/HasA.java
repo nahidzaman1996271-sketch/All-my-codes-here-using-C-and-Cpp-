@@ -1,17 +1,17 @@
-class Engine{
-    void start(){
+class Engine {
+    void start() {
         System.out.println("Car is starting");
     }
 }
 
-class Car{
+class Car {
     private Engine engine;
 
-    Car(){
+    Car() {
         engine = new Engine();
     }
 
-    void drive(){
+    void drive() {
         engine.start();
     }
 }
